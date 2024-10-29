@@ -1,0 +1,293 @@
+
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <title>form</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form action="" method="POST">-->
+<!--    {% csrf_token %}-->
+
+<!--        <fieldset class="contact-info">-->
+<!--          <div class="container">-->
+<!--            <h2>Contact Information</h2>-->
+
+<!--                &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;Name&#45;&#45;&#45;&#45;&ndash;&gt;-->
+<!--             <br><br>-->
+<!--              <label for="fname">Name</label>-->
+<!--              <input type="text" id="fname" name="fname" placeholder="Required Name" >-->
+<!--<br><br>-->
+<!--              &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;DoB-&#45;&#45;&ndash;&gt;-->
+<!--              <label for="dob">DOB</label>-->
+<!--              <input type="text" id="dob" name="dob" placeholder="Required ">-->
+<!--<br><br>-->
+<!--              &lt;!&ndash;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;Age&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
+
+<!--              <label for="age">Age</label>-->
+<!--              <input type="text" id="age" name="age">-->
+<!--              <br><br>-->
+
+
+
+<!--              &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;gender-&#45;&#45;&#45;&#45;&ndash;&gt;-->
+
+
+<!--              <label >Gender</label><br>-->
+<!--              <br>-->
+<!--             &lt;!&ndash; <input type="radio" id="gender" name="gender" >&ndash;&gt;-->
+<!--                 <input type="radio" id="male" name="male" value="male">-->
+<!--                 <label >Male</label><br>-->
+<!--<input type="radio" id="female" name="female" value="female">-->
+<!-- <label >Female</label><br>-->
+
+<!--<br><br>-->
+<!--            &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;contact&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
+
+<!--              <label for="contact">Contact</label>-->
+<!--              <input type="text" id="contact" name="contact" >-->
+<!--              <br>-->
+<!--              <br>-->
+<!-- &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;mail-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
+<!--              <label for="email">Email </label>-->
+<!--              <input type="email" id="email" name="email" placeholder="Required">-->
+<!--              <br><br>-->
+
+
+<!--              <br><br>-->
+<!--              &lt;!&ndash;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;Address&#45;&#45;&#45;&#45;&ndash;&gt;-->
+<!--              <label for="address"> Address</label>-->
+<!--              <input type="text" id="address" name="address">-->
+
+<!--<br><br>-->
+<!--            &lt;!&ndash;-&#45;&#45;district-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
+<!--              <label for="district">District</label>-->
+<!--              <select id="district" name="district">-->
+<!--                <option value="district">Select</option>-->
+<!--                <option value="kannur">kannur</option>-->
+<!--                <option value="kollam">kollam</option>-->
+<!--                <option value="ernakulam">Ernakulam</option>-->
+
+<!--              </select>-->
+
+<!--             &lt;!&ndash; <label for="zipcode">Zipcode</label>-->
+<!--              <input type="number" id="zipcode" name="user_zipcode">&ndash;&gt;-->
+<!--               <br>-->
+<!--              <br>-->
+<!--&lt;!&ndash;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;branch-&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
+<!--              <label >Branch</label>-->
+
+
+<!--<input type="text" id="branch" name="branch">-->
+
+<!--<br><br>-->
+<!--&lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;Account type&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
+<!--              <label >Account Type</label>-->
+<!--              &lt;!&ndash;<input type="text" id="type" name="type">-->
+<!--                     <select id="type" name="type">&ndash;&gt;-->
+<!--                              <select name="type" >-->
+
+<!--                <option value="select">Select</option>-->
+<!--                <option value="Saving">Saving</option>-->
+
+<!--                                  <option value="Current">Current</option>-->
+
+
+<!--                     </select>-->
+<!--            &lt;!&ndash;&#45;&#45;&#45;&#45;&#45;&#45;material type&#45;&#45;&#45;&#45;&ndash;&gt;-->
+<!--<br><br>-->
+<!--              <label >Material Type</label>-->
+
+
+
+<!--<br>-->
+
+<!--              <input type="checkbox" value="Debit Card" id="debitCard">-->
+<!--<label for="debitCard">Debit Card</label><br>-->
+
+<!--<input type="checkbox" value="Credit Card" id="creditCard">-->
+<!--<label for="creditCard">Credit Card</label><br>-->
+
+<!--<input type="checkbox" value="Cheque Book" id="chequeBook">-->
+<!--<label for="chequeBook">Cheque Book</label><br><br>-->
+
+<!--          </div>-->
+<!--                            <button type="submit">SUBMIT</button>-->
+
+<!--               <br><br>-->
+<!--<a href="login">Login</a>-->
+
+<!--        </fieldset>-->
+
+
+
+
+
+<!--</form>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+<form action="" method="POST">
+    {% csrf_token %}
+
+    <fieldset class="contact-info">
+      <div class="container">
+        <h2>Contact Information</h2>
+
+        <!-- Name -->
+        <br><br>
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Required Name" >
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="dob" placeholder="Required ">
+        <br><br>
+
+        <!-- Age -->
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender</label><br><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <br><br>
+
+        <!-- Contact -->
+        <label for="contact">Contact</label>
+        <input type="text" id="contact" name="contact" >
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email </label>
+        <input type="email" id="email" name="email" placeholder="Required">
+        <br><br>
+
+        <!-- Address -->
+        <label for="address"> Address</label>
+        <input type="text" id="address" name="address">
+        <br><br>
+
+        <!-- District -->
+        <label for="District">District</label>
+        <select id="District" name="District" onchange="changeCourses()">
+            <option value="">Select District</option>
+            <option value="kollam">Kollam</option>
+            <option value="Ernakulam">Ernakulam</option>
+            <option value="kannur">Kannur</option>
+            <option value="Alappuzha">Alappuzha</option>
+            <option value="Trivandram">Trivandrum</option>
+        </select>
+        <br><br>
+
+        <!-- Branch -->
+        <label for="Branch">Branch</label>
+        <select id="Branch" name="Branch">
+            <!-- Branch options will be added dynamically based on District -->
+        </select>
+        <br><br>
+
+        <!-- Account Type -->
+        <label>Account Type</label>
+        <select name="type">
+            <option value="select">Select</option>
+            <option value="Saving">Saving</option>
+            <option value="Current">Current</option>
+        </select>
+        <br><br>
+
+        <!-- Material Type -->
+        <label>Material Type</label><br>
+        <input type="checkbox" value="Debit Card" id="debitCard" name="material_type">
+        <label for="debitCard">Debit Card</label><br>
+        <input type="checkbox" value="Credit Card" id="creditCard" name="material_type">
+        <label for="creditCard">Credit Card</label><br>
+        <input type="checkbox" value="Cheque Book" id="chequeBook" name="material_type">
+        <label for="chequeBook">Cheque Book</label><br><br>
+
+      </div>
+
+      <button type="submit">SUBMIT</button>
+      <br><br>
+<!--      <a href="login">Login</a>-->
+<!--       <form action="{% url 'index' %}" method="get">-->
+<!--            <button type="submit">Logout</button>-->
+<!--           <input type="button" value="Logout" onclick= <a href="{% url 'index' %}">Logout<a/>-->
+<!--        <input type="button" value="Logout" onclick=<a href="{% url 'index' %}">-->
+<!--       </form>-->
+<!--         <li><a href="{% url 'index' %}">Home</a></li>-->
+
+<!--        <a href="{% url 'index' %}" class="btn btn-danger logout-btn">Logout</a>-->
+        <a href="{% url 'index' %}">Logout</a>
+  </fieldset>
+       </form>
+<!--<head>-->
+<!--.logout-btn {-->
+<!--    display: inline-block;-->
+<!--    padding: 10px 20px;-->
+<!--    background-color: #dc3545;-->
+<!--    color: white;-->
+<!--    text-align: center;-->
+<!--    text-decoration: none;-->
+<!--    border-radius: 5px;-->
+<!--    border: none;-->
+<!--    font-size: 16px;-->
+<!--    font-weight: bold;-->
+<!--    cursor: pointer;-->
+<!--    transition: background-color 0.3s ease;-->
+<!--}-->
+
+<!--.logout-btn:hover {-->
+<!--    background-color: #c82333;-->
+<!--}-->
+
+<!--1x-->
+
+<!--</head>-->
+
+
+<!-- JavaScript to change Branch based on District -->
+<script>
+function changeCourses() {
+    var district = document.getElementById("District").value;
+    var branch = document.getElementById("Branch");
+    branch.innerHTML = "";
+
+    if (district == "kollam") {
+        branch.innerHTML = '<option value="Kadapakada">Kadapakada</option><option value="Chinakada">Chinakada</option>';
+    } else if (district == "Ernakulam") {
+        branch.innerHTML = '<option value="Edappally">Edappally</option><option value="Angamaly">Angamaly</option>';
+    } else if (district == "kannur") {
+        branch.innerHTML = '<option value="Thalassery">Thalassery</option><option value="Payyannur">Payyannur</option>';
+    } else if (district == "Alappuzha") {
+        branch.innerHTML = '<option value="Mavelikkara">Mavelikkara</option><option value="Kayamkullam">Kayamkullam</option>';
+    } else if (district == "Trivandram") {
+        branch.innerHTML = '<option value="Varkala">Varkala</option><option value="Kovalam">Kovalam</option>';
+    }
+}
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

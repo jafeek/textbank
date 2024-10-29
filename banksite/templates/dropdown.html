@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    .custom-select {
+  margin: 50px auto;
+  width: 200px;
+  & .input-wrap::after {
+    content: "";
+    position: absolute;
+    z-index: 200;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    width: 18px;
+    height: 9px;
+    background-color: #000;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+
+  }
+  & .input-wrap.active::after {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  }
+  & input {
+    cursor: pointer;
+  }
+  & .option {
+    z-index: 200;
+    overflow: hidden;
+    & p:hover {
+      background-color: aliceBlue;
+      cursor: pointer;
+    }
+  }
+}
+.border-bottom-n {
+  border-bottom-color: transparent!important;
+}
+</style>
+</head>
+<body>
+<div class="custom-select flex-grow-1 position-relative">
+        <div class="input-wrap position-relative border border-dark" id="inputWrap">
+          <input
+            type="text" placeholder="Course" readonly
+            class="border-0 p-2 w-100">
+        </div>
+        <div class="option d-none bg-white border border-dark border-top-0 position-absolute top-100 w-100" id="option">
+          <p  class="mb-0 px-2 py-2">html</p>
+          <p  class="mb-0 px-2 py-2">css</p>
+          <p  class="mb-0 px-2 py-2">javascript</p>
+        </div>
+      </div>
+</body>
+</html>
